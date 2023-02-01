@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fbfbfb;
+  }
+  
+  button {
+    border-radius: 5px;
+    border: 1px solid #ff9390;
+    background-color: white;
+    color: #ff9390;
+    padding: 5px;
+  }
+  
+  input {
+    border-radius: 5px;
+    border: 1px solid #ff9390;
+    background-color: white;
+    color: #ff9390;
+    padding: 5px;
+  }
+  
+  img {
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+  }
+
+  .topbar {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .topbar > .logo {
+    font-size: 40px;
+    margin-left: 20px;
+    display: flex;
+    color: #ff9390;
+  }
+
+  .topbar > .logo > p {
+    margin-top: 30px;
+  }
+  
+  .topbar > .logo > i {
+    color: #ff9390;
+    padding-right: 10px;
+    padding-top: 10px;
+  }
+  
+  .topbar > .search {
+    padding-right: 30px;
+    margin-right: 70px;
+  }
+  
+  .topbar > .certification {
+    font-size: 40px;
+  }
+  
+  .topbar > .certification > .logout {
+    padding-right: 10px;
+    font-size: 35px;
+  }
+  
+  .topbar > .certification > .upload {
+    font-size: 35px;
+  }
+  
+  .topbar > .certification > .login {
+    padding-right: 10px;
+    font-size: 35px;
+  }
+  
+  .topbar > .certification > .signUp {
+    font-size: 35px;
+  }
+  
+  .topbar > .certification {
+    display: flex;
+  }
+  
+  .topbar > .certification .button {
+    padding: 10px;
+  }
+  
+
+  .border {
+    margin: 10px;
+    width: auto;
+    height: auto;
+    background-color: white;
+    padding-bottom: 10px;
+    border: 1px solid black;
+  }
+  
+  button:hover{
+    color: white;
+    background-color: #ff9390;
+  }
+  .main {
+    display: block;
+    margin-left: 40px;
+  }
+
+  div {
+    margin-bottom: 50px;
+    
+  }
+
+.main > input{
+    font-size: 30px;
+  }
+

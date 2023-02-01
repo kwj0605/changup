@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script
+      src="https://kit.fontawesome.com/53735a2265.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="uploadstyle.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <script src="uploadscript.js"></script>
+    <div class="uploadImg">
+      <div class="filebox">
+        <input
+          class="upload-name"
+          value="선택된 파일 없음"
+          disabled="disabled"
+        />
+        <input type="file" id="file1" class="upload-hidden" name="file1" />
+        <label for="file1">이미지 첨부</label>
+      </div>
+      <img id="previewImg" onclick="popImage(this.src)" />
+    </div>
+    <div class="info">
+      <input type="text" placeholder="구림마을" />
+      <input type="text" placeholder="별점" />
+      <input type="text" placeholder="의견" />
+    </div>
+    
+    <div class="registration">
+      <button type="button" onclick="alert('게시글이 작성됬습니다.'); location.href='index.php'">작성</button>
+    </div>
+  </body>
+</html>

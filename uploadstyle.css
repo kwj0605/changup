@@ -1,0 +1,164 @@
+.uploadImg {
+  margin-left: 40%;
+}
+.topBar {
+  display: flex;
+}
+
+.uploadImg {
+  margin: 10px;
+}
+img#previewImg {
+  cursor: pointer;
+  max-height: 350px;
+  max-width: 100%;
+  display: block;
+}
+
+.filebox {
+  display: inline-block;
+  margin: 10px;
+}
+.filebox label {
+  display: inline-block;
+  padding: 4px 8px;
+  margin-left: 5px;
+  color: #999;
+  font-size: inherit;
+  line-height: normal;
+  vertical-align: middle;
+  border-radius: 0.25em;
+  cursor: pointer;
+  color: #fff;
+  background-color: #ff9390;
+  border: 1px solid #ff9390;
+}
+.filebox input[type="file"] {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+.filebox .upload-name {
+  display: inline-block;
+  padding: 0.3em 0.4em;
+  font-size: inherit;
+  font-family: inherit;
+  line-height: normal;
+  vertical-align: middle;
+  background-color: #f5f5f5;
+  border: 1px solid #ebebeb;
+  border-bottom-color: #e2e2e2;
+  border-radius: 0.25em;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.menu {
+  margin-top: 50px;
+}
+
+.menu > input {
+  margin: 5px;
+  border-radius: 5px;
+  border: 1px solid skyblue;
+  padding: 5px;
+}
+.menu > .a {
+  background-color: white;
+  color: #ff9390;
+}
+.menu > .b {
+  background-color: white;
+  color: #ff9390;
+}
+.menu > .c {
+  background-color: white;
+  color: #ff9390;
+}
+.menu > .d {
+  background-color: white;
+  color: skyblue;
+}
+.menu > .e {
+  background-color: white;
+  color: skyblue;
+}
+.menu > .f {
+  background-color: white;
+  color: skyblue;
+}
+.menu > .g {
+  background-color: white;
+  color: skyblue;
+}
+.menu > .h {
+  background-color: white;
+  color: skyblue;
+}
+.menu > .i {
+  background-color: white;
+  color: skyblue;
+}
+.menu > .j {
+  background-color: white;
+  color: skyblue;
+}
+.menu > .k {
+  background-color: white;
+  color: skyblue;
+}
+.menu > .l {
+  background-color: white;
+  color: skyblue;
+}
+.menu > .m {
+  background-color: white;
+  color: skyblue;
+}
+.menu > .n {
+  background-color: white;
+  color: skyblue;
+}
+.menu > .o {
+  background-color: white;
+  color: skyblue;
+}
+.menu > .p {
+  background-color: white;
+  color: skyblue;
+}
+
+.info > input {
+  border: 1px solid #ff9390;
+  border-radius: 5px;
+  display: block;
+  padding: 5px;
+  margin: 10px;
+  color: #ff9390;
+}
+
+.info > ::placeholder {
+  color: #ff9390;
+}
+
+.registration > button {
+  margin: 5px;
+  border-radius: 5px;
+  border: 1px solid #ff9390;
+  background-color: white;
+  color: #ff9390;
+  padding: 5px;
+  margin-top: 100px;
+  margin-left: 80%;
+}
+
+button:hover{
+  color: white;
+  background-color: skyblue;
+}
